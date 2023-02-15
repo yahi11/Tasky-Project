@@ -7,7 +7,6 @@ const generateNewCard = (taskData) => `
                 <div class="card">
                     <div class="card-header d-flex justify-content-end gap-2">
                         <button type="button" class="btn btn-outline-success"><i class="fa-sharp fa-solid fa-pencil"></i></button>
-                        <button type="button" class="btn btn-outline-info"><i class="fa-solid fa-check"></i></button>
                         <button type="button" class="btn btn-outline-danger" id=${taskData.id} onclick="deleteCard.apply(this,arguments)"><i class="fas fa-trash-alt" id=${taskData.id} onclick="deleteCard.apply(this,arguments)"></i></button>  
                     </div> 
                     <div class="card-body">
